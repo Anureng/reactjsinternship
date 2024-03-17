@@ -56,8 +56,16 @@ const Login = () => {
                         {activeTab === 'login' && (
                             <div className='space-y-4'>
                                 <div className='flex flex-col space-y-3' >
-                                    <button className='border rounded-lg p-2 border-black font-medium'>Continue with Google</button>
-                                    <button className='border rounded-lg p-2 border-black font-medium'>Continue with Facebook</button>
+                                    <button className='border rounded-lg p-2 border-black font-medium flex items-center justify-around'>
+                                        <img src="/google.png" alt="" className='w-5 h-5' />
+                                        Continue with Google
+                                        <button></button>
+                                    </button>
+                                    <button className='border rounded-lg p-2 border-black font-medium flex items-center justify-around'>
+                                        <img src="/facebook.png" alt="" className='w-6 h-6' />
+                                        Continue with Facebook
+                                        <button></button>
+                                    </button>
                                 </div>
                                 <p className='flex items-center justify-center'>
                                     <hr className="h-px bg-gray-900 border-0  w-40 md:w-54" /> or connect with
@@ -78,8 +86,16 @@ const Login = () => {
                         {activeTab === 'Join In' && (
                             <div className='space-y-4'>
                                 <div className='flex flex-col space-y-3' >
-                                    <button className='border rounded-lg p-2 border-black font-medium'>Continue with Google</button>
-                                    <button className='border rounded-lg p-2 border-black font-medium'>Continue with Facebook</button>
+                                    <button className='border rounded-lg p-2 border-black font-medium flex items-center justify-around'>
+                                        <img src="/google.png" alt="" className='w-5 h-5' />
+                                        Continue with Google
+                                        <button></button>
+                                    </button>
+                                    <button className='border rounded-lg p-2 border-black font-medium flex items-center justify-around'>
+                                        <img src="/facebook.png" alt="" className='w-6 h-6' />
+                                        Continue with Facebook
+                                        <button></button>
+                                    </button>
                                 </div>
                                 <p className='flex items-center justify-center'> <hr className="h-px bg-gray-900 border-0  w-40 md:w-54" /> or connect with
                                     <hr className="h-px bg-gray-900 border-0 w-40 md:w-54" /></p>
@@ -88,7 +104,7 @@ const Login = () => {
                                 <div className='flex items-center justify-between text-xs font-light'>
                                     By continuing, you agree to our Terms of Service and Privacy Policy.
                                 </div>
-                                <button className='border flex items-center justify-center w-full p-2 rounded-lg border-black'>Agree And Continue</button>
+                                <button className='border flex items-center justify-center w-full p-2 rounded-lg  bg-[#8064A2] text-white'>Agree And Continue</button>
                             </div>
                         )}
                     </div>
